@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
-.container{
-    max-width: 1440px;
-    margin: 0 auto;;
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .switch {
@@ -110,7 +110,7 @@ button {
   border: none;
   border-radius: 30px;
   padding: 8px 30px;
-  font-family: Poppins;     
+  font-family: Poppins;
   font-size: 20px;
 
   &:hover {
@@ -121,192 +121,174 @@ button {
   }
 }
 
-main{
-    padding: 10px 80px;
-
+main {
+  padding: 10px 80px;
 }
 
-.athens{
-    background-color: #444444;
-    display: inline-block;
-    text-align: center;
-    padding: 35px 120px;
-    border-radius: 30px;
-    box-shadow: #00000080 10px 10px 4px 0;
+.athens {
+  background-color: #444444;
+  display: inline-block;
+  text-align: center;
+  padding: 35px 120px;
+  border-radius: 30px;
+  box-shadow: #00000080 10px 10px 4px 0;
 }
 
-.box1{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.box1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.tepa_wrap{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 20px;
-    color: white;
+.tepa_wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  color: white;
 }
 
-.tepa_wrap p{
-font-size: 18px;
-font-family: Poppins;
-margin: 0;
+.tepa_wrap p {
+  font-size: 18px;  
+  font-family: Poppins;
+  margin: 0;
 }
 
-.past_wrap p{
-    font-size: 18px;
-    font-family: Poppins;
-    margin: 0;
-    }
-    
-.past_wrap{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    color: white;
+.past_wrap p {
+  font-size: 18px;
+  font-family: Poppins;
+  margin: 0;
 }
 
-.box2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.past_wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
 }
 
-.box2 h2{
-    font-size: 32px;
-    font-family: Poppins;
-    color: white;
-    margin: 0;
-    
+.box2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-
-.box3{
-    display: flex;
-    color: white;
-    width: 250px;
-    font-family: Poppins;
-    gap: 10px;
-    
+.box2 h2 {
+  font-size: 32px;
+  font-family: Poppins;
+  color: white;
+  margin: 0;
 }
 
-.box3 img{
-    width: 40px;
-    height: auto;
-}
-.box_wrapper{
-    display: flex;
-    align-items: center;
-    background-color: #444444;
-    padding: 10px;
-    gap: 20px;
-    border-radius: 30px;
-    box-shadow: #00000080 10px 10px 4px 0;
-
-    
+.box3 {
+  display: flex;
+  color: white;
+  width: 250px;
+  font-family: Poppins;
+  gap: 10px;
 }
 
-
-
-.section1{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    margin-top: 50px;
+.box3 img {
+  width: 40px;
+  height: auto;
+}
+.box_wrapper {
+  display: flex;
+  align-items: center;
+  background-color: #444444;
+  padding: 10px;
+  gap: 20px;
+  border-radius: 30px;
+  box-shadow: #00000080 10px 10px 4px 0;
 }
 
-
-.box1 h2{
-    background: linear-gradient(to right, #eee, #333);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+.section1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 50px;
 }
 
-.p_gr{
-    background: linear-gradient(to right, #eee, #333);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;   
+.box1 h2 {
+  background: linear-gradient(to right, #eee, #333);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.section2{
-    margin-top: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.p_gr {
+  background: linear-gradient(to right, #eee, #333);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-
-.wrapper{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 20px;
-    text-align: center;
- 
+.section2 {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.wrapper h2{
-    color: white;
-    font-size: 24px;
-    font-family: Poppins;
-    margin: 0;
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  text-align: center;
 }
 
-.wrapper p{
-    color: white;
-    font-size: 16px;
-    font-family: Poppins;
+.wrapper h2 {
+  color: white;
+  font-size: 24px;
+  font-family: Poppins;
+  margin: 0;
 }
 
-.wrapper img{
-    width: 50px;
-    height: auto;
-}
-.box7{
-    background-color: #444444;
-    width: 400px;
-    padding: 15px;
-    border-radius: 30px;
-    box-shadow: #00000080 10px 10px 4px 0;
-    text-align: center;
-
+.wrapper p {
+  color: white;
+  font-size: 16px;
+  font-family: Poppins;
 }
 
-.box8{
-    text-align: center;
-    background-color: #444444;
-    padding: 20px 60px;
-    border-radius: 30px;
-    box-shadow: #00000080 10px 10px 4px 0;
-    
+.wrapper img {
+  width: 50px;
+  height: auto;
+}
+.box7 {
+  background-color: #444444;
+  width: 400px;
+  padding: 15px;
+  border-radius: 30px;
+  box-shadow: #00000080 10px 10px 4px 0;
+  text-align: center;
 }
 
-.wrap1{
-    text-align: center;
-    background-color: #373636;
-    display: inline-block;
-    padding: 13px 20px;
-    border-radius: 25px;
-    margin-left: 25px;
+.box8 {
+  text-align: center;
+  background-color: #444444;
+  padding: 20px 60px;
+  border-radius: 30px;
+  box-shadow: #00000080 10px 10px 4px 0;
 }
 
-.box8 h2{
-
-    color: white;
-    font-size: 32px;
-    font-family: Poppins;
+.wrap1 {
+  text-align: center;
+  background-color: #373636;
+  display: inline-block;
+  padding: 13px 20px;
+  border-radius: 25px;
+  margin-left: 25px;
 }
 
-.box8 h3{
-    color: white;
-    font-size: 20px;
-    font-family: Poppins;
-    margin: 0;
-
+.box8 h2 {
+  color: white;
+  font-size: 32px;
+  font-family: Poppins;
 }
 
-
-
+.box8 h3 {
+  color: white;
+  font-size: 20px;
+  font-family: Poppins;
+  margin: 0;
+}
